@@ -1,0 +1,12 @@
+logs
+*.log
+
+build/*
+!build/index.html
+
+node_modules
+npm-debug.log
+
+.DS_Store
+
+.idea/
