@@ -22,6 +22,7 @@ module.exports = {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-closing-bracket-location": "off",
     "no-mixed-operators": ["error", {"allowSamePrecedence": true}],
+    "eol-last": ["error", "never"],
     "react/sort-comp": ["error", {
       order: [
         'static-methods',
