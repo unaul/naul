@@ -1,0 +1,27 @@
+.wrapper {
+  position: absolute;
+
+  .position {
+    display: block;
+    position: relative;
+    top: -15px;
+    opacity: 0;
+    width: 300px;
+    transition: ease-in-out top 0.4s, opacity 0.4s;
+
+    &.show {
+      z-index: 0;
+      top: 0;
+      opacity: 1;
+    }
+
+    .song {
+      display: flex;
+      margin-bottom: 5px;
+
+      .track {
+        width: 30px;
+      }
+    }
+  }
+}
