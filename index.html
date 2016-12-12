@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width">
     <meta name="format-detection" content="telephone=no">
     <title>Naul</title>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <!--<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>-->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
@@ -12,5 +14,17 @@
       로딩중인 이 화면을 대체할 무언가가 있을까
     </div>
     <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+
+
+
+    <script>
+      var carousel = $("#albumViewer").flipster({
+        start: 0,
+        style: 'carousel',
+        spacing: -0.5,
+        nav: true,
+        buttons: true,
+      });
+    </script>
   </body>
 </html>
